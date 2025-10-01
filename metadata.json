@@ -1,4 +1,5 @@
 {
   "name": "Flarum VR Interface",
-  "description": "A WebXR interface for browsing a Flarum forum. This standalone React application simulates a VR experience, displaying discussions and posts in a 3D environment using react-three-fiber and react-three-xr."
+  "description": "A WebXR interface for browsing a Flarum forum. This standalone React application simulates a VR experience, displaying discussions and posts in a 3D environment using react-three-fiber and react-three-xr.",
+  "requestFramePermissions": []
 }

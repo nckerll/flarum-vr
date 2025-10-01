@@ -1,5 +1,5 @@
 {
-    "name": "yourvendor/flarum-vr",
+    "name": "nckerll/flarum-vr",
     "description": "Flarum için bir WebXR arayüzü.",
     "type": "flarum-extension",
     "license": "MIT",
@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "YourVendor\\FlarumVR\\": "src/"
+            "Nckerll\\FlarumVR\\": "src/"
         }
     },
     "extra": {
