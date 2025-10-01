@@ -1,11 +1,25 @@
-<div align="center">
+# Flarum VR Eklentisi
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Bu Flarum eklentisi, forumunuzu gezmek için bir WebXR arayüzü sağlar.
 
-  <h1>Built with AI Studio</h2>
+## Özellikler
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **VR Modu Düğmesi**: VR deneyimini başlatmak için forum başlığına basit bir düğme ekler.
+- **Sürükleyici Tartışma Listesi**: En son tartışmaları 3D uzayda etkileşimli paneller olarak görüntüler.
+- **3D Avatar**: Kullanıcı avatarları, gönderilerinin yanında yüzleri profil fotoğraflarından alınan 3D figürler olarak gösterilir.
+- **Tam Etkileşim**: VR ortamında yeni tartışmalar başlatın ve mevcut olanlara yanıt verin.
+- **PC/Mobil Önizleme**: VR başlığı olmadan fare/klavye veya dokunmatik kontrollerle ortamı test edin.
+- **Otomatik VR Algılama**: Uyumlu bir VR başlığı takıldığında tam sürükleyici moda otomatik olarak geçer.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Kurulum
 
-</div>
+1. Sunucunuza SSH ile bağlanın ve Flarum kök dizininize gidin.
+2. Eklentiyi Composer kullanarak yükleyin:
+   ```bash
+   composer require yourvendor/flarum-vr
+   ```
+3. Flarum yönetici panelinize giriş yapın, "Eklentiler" sayfasına gidin ve "Flarum VR" eklentisini etkinleştirin.
+4. Flarum önbelleğini temizleyin:
+   ```bash
+   php flarum cache:clear
+   ```
