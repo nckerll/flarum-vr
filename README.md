@@ -16,7 +16,7 @@ Bu Flarum eklentisi, forumunuzu gezmek için bir WebXR arayüzü sağlar.
 1. Sunucunuza SSH ile bağlanın ve Flarum kök dizininize gidin.
 2. Eklentiyi Composer kullanarak yükleyin:
    ```bash
-   composer require yourvendor/flarum-vr
+   composer require nckerll/flarum-vr
    ```
 3. Flarum yönetici panelinize giriş yapın, "Eklentiler" sayfasına gidin ve "Flarum VR" eklentisini etkinleştirin.
 4. Flarum önbelleğini temizleyin:
